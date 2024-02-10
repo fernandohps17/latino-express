@@ -1,0 +1,68 @@
+@import './vars';
+
+.bg_nav {
+    background: $color_secundario;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_navegacion {
+    padding: 20px 0;
+}
+
+.nav_enlaces {
+    display: flex;
+    gap: 20px;
+    
+    a {
+        text-decoration: none;
+        color: $color_principal;
+        font-size: 20px;
+        font-weight: 600;
+        transition: 1s ease;
+
+        &:hover {
+            color: $color_terciario;
+        }
+    }
+}
+
+.nav_social {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_icons_social {
+    display: flex;
+    gap: 20px;
+
+    img {
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        transition: 0.5s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.nav_btn {
+    
+    a {
+        background-color: $color_principal;
+        color: $color_secundario;
+        text-decoration: none;
+        padding: 25px;
+        transition: 1s ease;
+
+        &:hover {
+            color: $color_terciario;
+        }
+    }
+}

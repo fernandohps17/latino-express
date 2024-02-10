@@ -1,0 +1,25 @@
+@import '../components/vars';
+
+.what_we_do {
+    display: flex;
+    margin: 70px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what_we_do_title_spacing {
+    display: grid;
+    gap: 15px;
+}
+
+.what_we_do_title_p {
+    font-size: 18px;
+
+    span {
+        color: $color_secundario;
+    }
+}
+
+.what_we_do_title {
+    font-size: 25px;
+}

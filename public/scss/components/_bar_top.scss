@@ -1,0 +1,90 @@
+@import './vars';
+
+.bg_bar_top {
+    background: $color_principal;
+}
+
+.bar_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $destok_1120px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    @media screen and (max-width: $destok_1000px) {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    @media screen and (max-width: $phone_500px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.bar_top_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+    img {
+        object-fit: contain;
+        height: 120px;
+        width: 120px;
+    }
+
+    @media screen and (max-width: $destok_1300px) {
+        gap: 50px;
+    }
+
+    @media screen and (max-width: $destok_1200px) {
+        gap: 20px;
+    }
+}
+
+.bar_top_logo_divider {
+    border-right: 1px solid $color_terciario;
+    height: 80px;
+
+    @media screen and (max-width: $destok_1120px) {
+        display: none;
+    }
+}
+
+.bar_top_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    @media screen and (max-width: $destok_1000px) {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+}
+
+.bar_top_contact_content {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        background-color: $color_secundario;
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+
+.bar_top_contact_content_text {
+    color: $color_terciario;
+}
