@@ -251,6 +251,35 @@ require_once "./comons/version_css_js.php";
 
 
 
+
+
+
+
+
+
+
+        <!-- Porque elegirnos -->
+        <div class="container bg_why_choose">
+            <div class="content">
+                <div class="why_choose">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Formulario de contacto -->
         <div class="container bg_form">
             <div class="content">
@@ -302,38 +331,24 @@ require_once "./comons/version_css_js.php";
                         </div>
                     </div>
 
-
-
-
-
                     <div class="form_inputs">
                         <form action="" class="form_inputs_spacing">
                             <label class="form_inputs_content">
                                 <input type="text" name="name" placeholder="Nombre" required>
                                 <input type="email" name="email" placeholder="Email" required>
                             </label>
-
                             <label class="form_inputs_content">
                                 <input type="tel" name="tel" placeholder="Telefono" required>
                                 <input type="text" name="city" placeholder="Ciudad" required>
                             </label>
-
                             <label class="form_inputs_textarea">
                                 <textarea name="message" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
                             </label>
-
                             <div class="form_inputs_btn">
                                 <button>Enviar mensaje</button>
                             </div>
                         </form>
                     </div>
-
-
-
-
-
-
-
                 </div>
 
                 <div class="form_gallery">
@@ -360,18 +375,12 @@ require_once "./comons/version_css_js.php";
 
 
 
-
-
-
-
-
         <!-- Footer -->
         <div class="container bg_footer_img">
             <div class="content">
                 <div class="footer_img"></div>
             </div>
         </div>
-
 
         <div class="footer">
             <div class="footer_logo">
@@ -436,10 +445,6 @@ require_once "./comons/version_css_js.php";
                 </div>
             </div>
         </div>
-
-
-
-
 
         <div class="container bg_footer_two">
             <div class="content">
