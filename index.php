@@ -170,7 +170,110 @@ require_once "./comons/version_css_js.php";
                             </header>
                         </section>
                     </div>
-                    <div class="what_we_do_content">relleno</div>
+
+                    <div class="what_we_do_flex">
+
+
+
+
+
+
+
+                        <div class="what_we_do_content">
+                            <div class="what_we_do_content_article">
+                                <div class="what_we_do_content_article_img">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/barco.svg">
+                                        <img class="image" data-img="/public/icon/barco.svg" alt="Latino express envios maritimos" title="Latino express envios maritimos" width="100" height="100">
+                                    </picture>
+                                </div>
+                                <div class="what_we_do_content_article_content">
+                                    <section class="what_we_do_content_article_content_title">
+                                        <header>
+                                            <h3>Servicio de <br> transporte marítimo <br> (Pronto)</h3>
+                                        </header>
+                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                    </section>
+                                </div>
+                            </div>
+
+                            <div class="what_we_do_content_article">
+                                <div class="what_we_do_content_article_img">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/aereo.svg">
+                                        <img class="image" data-img="/public/icon/aereo.svg" alt="Latino express envios aereos" title="Latino express envios aereos" width="100" height="100">
+                                    </picture>
+                                </div>
+                                <div class="what_we_do_content_article_content">
+                                    <section class="what_we_do_content_article_content_title">
+                                        <header>
+                                            <h3>Servicios aéreos</h3>
+                                        </header>
+                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="what_we_do_content">
+                            <div class="what_we_do_content_article">
+                                <div class="what_we_do_content_article_img">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/almacenamiento.svg">
+                                        <img class="image" data-img="/public/icon/alamacenamiento.svg" alt="Latino express almacenamiento de paquetes" title="Latino express almacenamientos de paquetes" width="100" height="100">
+                                    </picture>
+                                </div>
+                                <div class="what_we_do_content_article_content">
+                                    <section class="what_we_do_content_article_content_title">
+                                        <header>
+                                            <h3>Servicio de <br> almacenamientos</h3>
+                                        </header>
+                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                    </section>
+                                </div>
+                            </div>
+
+                            <div class="what_we_do_content_article">
+                                <div class="what_we_do_content_article_img">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/terrestre.svg">
+                                        <img class="image" data-img="/public/icon/terrestre.svg" alt="Latino express envios locales" title="Latino express envios locales" width="100" height="100">
+                                    </picture>
+                                </div>
+                                <div class="what_we_do_content_article_content">
+                                    <section class="what_we_do_content_article_content_title">
+                                        <header>
+                                            <h3>Servicio de envío locales</h3>
+                                        </header>
+                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
             </div>
         </div>

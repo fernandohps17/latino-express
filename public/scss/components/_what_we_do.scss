@@ -4,7 +4,14 @@
     display: flex;
     margin: 70px 0;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+
+    @media screen and (max-width: $destok_1400px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 }
 
 .what_we_do_title_spacing {
@@ -22,4 +29,53 @@
 
 .what_we_do_title {
     font-size: 25px;
+
+    @media screen and (max-width: $phone_500px) {
+        font-size: 20px;
+    }
+}
+
+.what_we_do_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    @media screen and (max-width: $tablet_900px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.what_we_do_content {
+    display: grid;
+    gap: 40px;
+}
+
+.what_we_do_content_article {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+
+    @media screen and (max-width: $phone_500px) {
+        gap: 15px;
+    }
+}
+
+.what_we_do_content_article_img {
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+}
+
+.what_we_do_content_article_content {}
+
+.what_we_do_content_article_content_title {
+    font-size: 16px;
+    display: grid;
+    gap: 10px;
+    border-left:  1px solid $color_border;
+    padding-left: 10px;
 }
