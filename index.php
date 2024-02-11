@@ -172,13 +172,6 @@ require_once "./comons/version_css_js.php";
                     </div>
 
                     <div class="what_we_do_flex">
-
-
-
-
-
-
-
                         <div class="what_we_do_content">
                             <div class="what_we_do_content_article">
                                 <div class="what_we_do_content_article_img">
@@ -215,17 +208,6 @@ require_once "./comons/version_css_js.php";
                             </div>
                         </div>
 
-
-
-
-
-
-
-
-
-
-
-
                         <div class="what_we_do_content">
                             <div class="what_we_do_content_article">
                                 <div class="what_we_do_content_article_img">
@@ -261,24 +243,96 @@ require_once "./comons/version_css_js.php";
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
 
 
+
+
+
+        <!-- Footer -->
+        <div class="container bg_footer_img">
+            <div class="content">
+                <div class="footer_img"></div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="footer_logo">
+                <picture class="picture-defer">
+                    <source class="image source" type='image/webp' data-img="/public/img/logo-latino-express.webp">
+                    <img class="image" data-img="/public/img/logo-latino-express.png" alt="Latino express logo" title="Latino express logo" width="100" height="100">
+                </picture>
+            </div>
+            <div class="footer_content">
+                <div class="footer_content_icons">
+                    <div class="footer_content_icons_contact">
+                        <div class="bar_top_contact_content">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/icon/email.svg">
+                                <img class="image" data-img="/public/icon/email.svg" alt="Latino express envianos un email" title="Latino express email" width="100" height="100">
+                            </picture>
+                            <div class="bar_top_contact_content_text">
+                                <p>Email</p>
+                                <p>contact@567897854.com</p>
+                            </div>
+                        </div>
+                        <div class="bar_top_contact_content">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/icon/call.svg">
+                                <img class="image" data-img="/public/icon/call.svg" alt="Latino express llamanos" title="Latino express llamada" width="100" height="100">
+                            </picture>
+                            <div class="bar_top_contact_content_text">
+                                <p>Call us</p>
+                                <p>67898745378</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_content_nav">
+                    <nav class="footer_content_nav_enlaces">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Project</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer_content_email">
+                    <form action="" class="footer_content_email_spacing">
+                        <input type="email" name="email_footer" required placeholder="Ingrese su Email">
+                        <div class="btn_icons">
+                            <button type="submit">Enviar</button>
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/icon/linkeding_white.svg">
+                                <img class="image" data-img="/public/icon/linkeding_white.svg" alt="Latino express linkeding" title="Latino express linkeding" width="100" height="100">
+                            </picture>
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/icon/twitter_white.svg">
+                                <img class="image" data-img="/public/icon/twitter_white.svg" alt="Latino express twitter" title="Latino express twitter" width="100" height="100">
+                            </picture>
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/icon/facebook_white.svg">
+                                <img class="image" data-img="/public/icon/facebook_white.svg" alt="Latino express facebook" title="Latino express facebook" width="100" height="100">
+                            </picture>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container bg_footer_two">
+            <div class="content">
+                <p>©2024 Latino Express. Todos los derechos reservados.</p>
+            </div>
+        </div>
 
 
 
