@@ -136,7 +136,7 @@ require_once "./comons/version_css_js.php";
                 <div class="header">
                     <section class="header_content">
                         <div class="header_content_p">
-                            <p><span>|</span> Latino express es tu solución</p>
+                            <p>Latino express es tu solución</p>
                         </div>
                         <header class="header_content_title">
                             <h1>Tu puerta de enlace <br> a cualquier Destino <br> en el Mundo</h1>
@@ -247,6 +247,119 @@ require_once "./comons/version_css_js.php";
                 </div>
             </div>
         </div>
+
+
+
+
+        <!-- Formulario de contacto -->
+        <div class="container bg_form">
+            <div class="content">
+                <div class="form">
+                    <div class="form_content">
+                        <section class="form_content">
+                            <div class="form_content_p">
+                                <p>Contacto</p>
+                            </div>
+                            <header class="form_content_title">
+                                <h2>Ponte en contacto <br> con nosotros</h2>
+                            </header>
+                            <div class="form_content_subtitle">
+                                <p>Leverage agile frameworks to provide a robust <br> synopsis for strategy foster collaborative <br> thinking to further the overall value.</p>
+                            </div>
+                        </section>
+
+                        <div class="form_content_icons">
+                            <div class="bar_top_contact_content">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/clock.svg">
+                                    <img class="image" data-img="/public/icon/clock.svg" alt="Latino express nuestros horarios" title="Latino express horario" width="100" height="100">
+                                </picture>
+                                <div class="bar_top_contact_content_text">
+                                    <p>Mon - Sat 9.00 - 18.00</p>
+                                    <p>Sunday Closed</p>
+                                </div>
+                            </div>
+                            <div class="bar_top_contact_content">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/email.svg">
+                                    <img class="image" data-img="/public/icon/email.svg" alt="Latino express envianos un email" title="Latino express email" width="100" height="100">
+                                </picture>
+                                <div class="bar_top_contact_content_text">
+                                    <p>Email</p>
+                                    <p>contact@567897854.com</p>
+                                </div>
+                            </div>
+                            <div class="bar_top_contact_content">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/call.svg">
+                                    <img class="image" data-img="/public/icon/call.svg" alt="Latino express llamanos" title="Latino express llamada" width="100" height="100">
+                                </picture>
+                                <div class="bar_top_contact_content_text">
+                                    <p>Call us</p>
+                                    <p>67898745378</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="form_inputs">
+                        <form action="" class="form_inputs_spacing">
+                            <label class="form_inputs_content">
+                                <input type="text" name="name" placeholder="Nombre" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                            </label>
+
+                            <label class="form_inputs_content">
+                                <input type="tel" name="tel" placeholder="Telefono" required>
+                                <input type="text" name="city" placeholder="Ciudad" required>
+                            </label>
+
+                            <label class="form_inputs_textarea">
+                                <textarea name="message" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
+                            </label>
+
+                            <div class="form_inputs_btn">
+                                <button>Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+                <div class="form_gallery">
+                    <picture class="picture-defer">
+                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-1.webp">
+                        <img class="image" data-img="/public/img/latino-express-gallery-footer-1.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
+                    </picture>
+                    <picture class="picture-defer">
+                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-2.webp">
+                        <img class="image" data-img="/public/img/latino-express-gallery-footer-2.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
+                    </picture>
+                    <picture class="picture-defer">
+                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-3.webp">
+                        <img class="image" data-img="/public/img/latino-express-gallery-footer-3.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
+                    </picture>
+                    <picture class="picture-defer">
+                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-4.webp">
+                        <img class="image" data-img="/public/img/latino-express-gallery-footer-4.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+
+
+
 
 
 

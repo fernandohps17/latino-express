@@ -27,11 +27,13 @@
 }
 
 .header_content_p {
+    border-left: 2px solid $color_secundario;
     
     p {
         background: #0000006d;
-        width: 280px;
+        width: 250px;
         font-size: 17px;
+        text-align: center;
     }
 
     span {

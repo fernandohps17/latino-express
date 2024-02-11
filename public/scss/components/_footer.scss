@@ -98,7 +98,8 @@
         width: 300px;
         background-color: $color_principal;
         color: $color_terciario;
-        border: 1px solid $color_terciario;
+        border: 1px solid $color_secundario;
+        outline: none;
 
         @media screen and (max-width: $tablet_850px) {
             margin: auto;

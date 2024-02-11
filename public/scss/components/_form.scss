@@ -1,0 +1,159 @@
+@import './vars';
+
+.bg_form {
+    background: $color_principal;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: $color_terciario;
+    margin: 70px 0 40px 0;
+
+    @media screen and (max-width: $destok_1000px) {
+        flex-direction: column;
+    }
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_content_p {
+    border-left: 2px solid $color_secundario;
+
+    p {
+        background-color: $color_footer_logo;
+        width: 80px;
+        text-align: center;
+    }
+}
+
+.form_content_title {
+    font-size: 25px;
+
+    @media screen and (max-width: $phone_500px) {
+        font-size: 18px;
+    }
+}
+
+.form_content_subtitle {
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.form_content_icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+.form_inputs {
+    width: 50%;
+
+    @media screen and (max-width: $destok_1000px) {
+        width: 100%;
+    }
+}
+
+.form_inputs_spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_inputs_content {
+    display: flex;
+    gap: 20px;
+
+    input {
+        width: 100%;
+        height: 50px;
+        border: 1px solid $color_secundario;
+        background-color: $color_principal;
+        color: $color_terciario;
+        padding-left: 10px;
+        outline: none;
+    }
+
+    @media screen and (max-width: $phone_500px) {
+        flex-direction: column;
+    }
+}
+
+
+.form_inputs_textarea {
+
+    textarea {
+        width: 100%;
+        border: 1px solid $color_secundario;
+        background-color: $color_principal;
+        color: $color_terciario;
+        padding: 10px;
+        outline: none;
+        font-family: "OpenSans";
+    }
+}
+
+
+.form_inputs_btn {
+
+    button {
+        background: $background_btn_gradiente;
+        width: 150px;
+        padding: 20px 10px;
+        font-size: 18px;
+        text-align: center;
+        color: $color_principal;
+        transition: .5s ease;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+
+
+
+.form_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    
+    img {
+        width: 111%;
+        height: 111%;
+        transition: 1s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        @media screen and (max-width: $destok_1200px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media screen and (max-width: $tablet_800px) {
+        justify-content: center;
+        gap: 20px;
+    }
+}
