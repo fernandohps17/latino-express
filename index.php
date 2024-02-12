@@ -80,8 +80,15 @@ require_once "./comons/version_css_js.php";
         <div class="container bg_nav">
             <div class="content">
                 <div class="nav">
-                    <div class="nav_navegacion">
-                        <nav class="nav_enlaces">
+                    <div class="toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="openMenu" height="48" width="48">
+                            <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+                        </svg>
+                    </div>
+
+                    <div class="nav_navegacion menu_enlaces" id="menuMobile">
+                        <nav class="nav_enlaces menu_enlaces_a">
+                            <p class="closeMenu" id="closeMenu">X</p>
                             <a href="#">Home</a>
                             <span>|</span>
                             <a href="">About</a>
@@ -92,36 +99,37 @@ require_once "./comons/version_css_js.php";
                             <span>|</span>
                             <a href="">Contact</a>
                         </nav>
-                    </div>
-                    <div class="nav_social">
-                        <div class="nav_icons_social">
-                            <a href="https://www.instagram.com/" target="_blank">
-                                <picture class="picture-defer">
-                                    <source class="image source" type='image/webp' data-img="/public/icon/instagram.svg">
-                                    <img class="image" data-img="/public/icon/instagram.svg" alt="Latino express instagram" title="Latino express instagram" width="100" height="100">
-                                </picture>
-                            </a>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <picture class="picture-defer">
-                                    <source class="image source" type='image/webp' data-img="/public/icon/facebook.svg">
-                                    <img class="image" data-img="/public/icon/facebook.svg" alt="Latino express facebook" title="Latino express facebook" width="100" height="100">
-                                </picture>
-                            </a>
-                            <a href="https://www.twitter.com" target="_blank">
-                                <picture class="picture-defer">
-                                    <source class="image source" type='image/webp' data-img="/public/icon/twitter.svg">
-                                    <img class="image" data-img="/public/icon/twitter.svg" alt="Latino express twitter" title="Latino express twitter" width="100" height="100">
-                                </picture>
-                            </a>
-                            <a href="https://www.linkedin.com/" target="_blank">
-                                <picture class="picture-defer">
-                                    <source class="image source" type='image/webp' data-img="/public/icon/linkeding.svg">
-                                    <img class="image" data-img="/public/icon/linkeding.svg" alt="Latino express linkeding" title="Latino express linkeding" width="100" height="100">
-                                </picture>
-                            </a>
-                        </div>
-                        <div class="nav_btn">
-                            <a href="">Request Quote</a>
+
+                        <div class="nav_social">
+                            <div class="nav_icons_social">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/instagram.svg">
+                                        <img class="image" data-img="/public/icon/instagram.svg" alt="Latino express instagram" title="Latino express instagram" width="100" height="100">
+                                    </picture>
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/facebook.svg">
+                                        <img class="image" data-img="/public/icon/facebook.svg" alt="Latino express facebook" title="Latino express facebook" width="100" height="100">
+                                    </picture>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/twitter.svg">
+                                        <img class="image" data-img="/public/icon/twitter.svg" alt="Latino express twitter" title="Latino express twitter" width="100" height="100">
+                                    </picture>
+                                </a>
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/icon/linkeding.svg">
+                                        <img class="image" data-img="/public/icon/linkeding.svg" alt="Latino express linkeding" title="Latino express linkeding" width="100" height="100">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="nav_btn">
+                                <a href="">Request Quote</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,7 +260,7 @@ require_once "./comons/version_css_js.php";
 
         <div class="container bg_section_img">
             <div class="content">
-                
+
             </div>
         </div>
 
@@ -742,5 +750,6 @@ require_once "./comons/version_css_js.php";
 
 <script src="/public/js/carga_diferida.js"></script>
 <script src="/public/js/count.js"></script>
+<script src="/public/js/menu.js"></script>
 
 </html>

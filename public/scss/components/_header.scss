@@ -9,6 +9,8 @@
     position: relative;
 }
 
+
+
 .header_content {
     display: flex;
     flex-direction: column;
@@ -20,10 +22,24 @@
     top: 50%;
     left: 32%;
     transform: translate(-50%, -50%);
+
+    @media screen and (max-width: $destok_1200px) {
+        position: relative;
+        transform: translate(0%, -50%);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        left: unset;
+    }
 }
 
 .header_content_title {
     font-size: 35px;
+
+    @media screen and (max-width: $tablet_650px) {
+        font-size: 20px;
+    }
 }
 
 .header_content_p {

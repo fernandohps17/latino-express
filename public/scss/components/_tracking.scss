@@ -41,6 +41,10 @@
     justify-content: center;
     align-items: center;
 
+    @media screen and (max-width: $tablet_700px) {
+        flex-direction: column;
+    }
+
     p {
         color: $color_terciario;
         font-size: 20px;

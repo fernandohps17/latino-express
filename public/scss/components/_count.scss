@@ -8,6 +8,10 @@
     justify-content: center;
     align-items: center;
     margin: 70px 0;
+
+    @media screen and (max-width: $tablet_700px) {
+        flex-direction: column;
+    }
 }
 
 .count_content {
