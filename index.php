@@ -254,6 +254,33 @@ require_once "./comons/version_css_js.php";
 
 
 
+        <div class="container">
+            <div class="content">
+                <div class="count">
+                    <div class="count_content">
+                        <span class="num" id="num" data-val="1294">0000</span>
+                        <picture class="picture-defer">
+                            <source class="image source" type='image/webp' data-img="/public/icon/Pattern.webp">
+                            <img class="image" data-img="/public/icon/Pattern.png" alt="Latino express" title="Latino express" width="100" height="100">
+                        </picture>
+                        <p>Paquetes entregados</p>
+                    </div>
+
+                    <div class="count_content">
+                        <span class="num" id="num" data-val="3594">0000</span>
+                        <picture class="picture-defer">
+                            <source class="image source" type='image/webp' data-img="/public/icon/Pattern.webp">
+                            <img class="image" data-img="/public/icon/Pattern.png" alt="Latino express" title="Latino express" width="100" height="100">
+                        </picture>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
 
 
 
@@ -536,5 +563,6 @@ require_once "./comons/version_css_js.php";
 </body>
 
 <script src="/public/js/carga_diferida.js"></script>
+<script src="/public/js/count.js"></script>
 
 </html>

@@ -1,0 +1,31 @@
+@import '../components/vars';
+
+
+
+.count {
+    display: flex;
+    // gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.count_content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    padding: 30px;
+    font-size: 20px;
+
+    span {
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    img {
+        width: 15px;
+        height: 15px;
+    }
+}
