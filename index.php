@@ -253,7 +253,7 @@ require_once "./comons/version_css_js.php";
 
 
 
-
+        <!-- Contador de paquetes entregados -->
         <div class="container">
             <div class="content">
                 <div class="count">
@@ -277,6 +277,54 @@ require_once "./comons/version_css_js.php";
                 </div>
             </div>
         </div>
+
+
+
+
+
+        <!-- Seccion de rastreo de paquetes -->
+        <div class="container">
+            <div class="content">
+                <section class="tracking_title">
+                    <header>
+                        <h2>Verifica el transito de tu <br> paquete y punto de encuentro</h2>
+                    </header>
+                </section>
+            </div>
+        </div>
+        <div class="container bg_tracking">
+            <div class="content">
+                <div class="tracking">
+
+                    <div class="tracking_coding">
+                        <div class="tracking_coding_verifed">
+                            <form action="" class="tracking_coding_verifed_input">
+                                <p>CODIGO - 5000</p>
+                                <input type="text" required name="coding">
+                            </form>
+                        </div>
+
+                        <div class="tracking_conding_verifed_data">
+                            <div>
+                                datos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Testimonios -->
+        
+
+
+
 
 
 
@@ -325,21 +373,21 @@ require_once "./comons/version_css_js.php";
                                         <source class="image source" type='image/webp' data-img="/public/img/latino-express-box.webp">
                                         <img class="image" data-img="/public/img/latino-express-box.png" alt="Latino express la mejor seguridad en paquetes" title="Latino express la mejor seguridad en paquetes" width="100" height="100">
                                     </picture>
-                                    <p>seguridad de paquete</p>
+                                    <p>Seguridad de paquete</p>
                                 </div>
                                 <div class="why_choose_icons_content">
                                     <picture class="picture-defer">
                                         <source class="image source" type='image/webp' data-img="/public/img/latino-express-barco.webp">
                                         <img class="image" data-img="/public/img/latino-express-barco.png" alt="Latino express la mejor seguridad en envios" title="Latino express la mejor seguridad en envios" width="100" height="100">
                                     </picture>
-                                    <p>seguridad de envio</p>
+                                    <p>Seguridad de envio</p>
                                 </div>
                                 <div class="why_choose_icons_content">
                                     <picture class="picture-defer">
                                         <source class="image source" type='image/webp' data-img="/public/img/latino-express-global.webp">
                                         <img class="image" data-img="/public/img/latino-express-global.png" alt="Latino express el mejor rastreo de paquetes" title="Latino express el mejor rastreo paquetes" width="100" height="100">
                                     </picture>
-                                    <p>rastreo</p>
+                                    <p>Rastreo</p>
                                 </div>
                             </div>
                             <div class="why_choose_icons_flex">
