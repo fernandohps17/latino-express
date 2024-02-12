@@ -262,7 +262,84 @@ require_once "./comons/version_css_js.php";
         <div class="container bg_why_choose">
             <div class="content">
                 <div class="why_choose">
+                    <div class="why_choose_image">
+                        <picture class="picture-defer">
+                            <source class="image source" type='image/webp' data-img="/public/img/latino-express-why-choose.webp">
+                            <img class="image" data-img="/public/img/latino-express-why-choose.jpg" alt="Latino express su mejor eleccion" title="Latino express su mejor eleccion" width="100" height="100">
+                        </picture>
 
+                        <div class="why_choose_image_information">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/img/latino-express-aereo.webp">
+                                <img class="image" data-img="/public/img/latino-express-aereo.png" alt="Latino express" title="Latino express" width="100" height="100">
+                            </picture>
+                            <p>Tu productos se <br> mueven entre <br> ciudades.</p>
+                        </div>
+                    </div>
+
+                    <div class="why_choose_content">
+                        <div class="why_choose_p">
+                            <p>¿Porqué Elegirnos?</p>
+                        </div>
+                        <section class="why_choose_title">
+                            <header>
+                                <h2>Creamos oportunidades <br> para alcanzar el <br> potencial.</h2>
+                            </header>
+                        </section>
+                        <div class="why_choose_subtitle">
+                            <p>Leverage agile frameworks to provide a robust synopsis for <br> strategy foster collaborative thinking to further the overall <br> value proposition. </p>
+                        </div>
+
+
+                        <div class="why_choose_icons">
+                            <div class="why_choose_icons_flex">
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-box.webp">
+                                        <img class="image" data-img="/public/img/latino-express-box.png" alt="Latino express la mejor seguridad en paquetes" title="Latino express la mejor seguridad en paquetes" width="100" height="100">
+                                    </picture>
+                                    <p>seguridad de paquete</p>
+                                </div>
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-barco.webp">
+                                        <img class="image" data-img="/public/img/latino-express-barco.png" alt="Latino express la mejor seguridad en envios" title="Latino express la mejor seguridad en envios" width="100" height="100">
+                                    </picture>
+                                    <p>seguridad de envio</p>
+                                </div>
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-global.webp">
+                                        <img class="image" data-img="/public/img/latino-express-global.png" alt="Latino express el mejor rastreo de paquetes" title="Latino express el mejor rastreo paquetes" width="100" height="100">
+                                    </picture>
+                                    <p>rastreo</p>
+                                </div>
+                            </div>
+                            <div class="why_choose_icons_flex">
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-support.webp">
+                                        <img class="image" data-img="/public/img/latino-express-support.png" alt="Latino express atencion al cliente 24/7" title="Latino express atencion al cliente 24/7" width="100" height="100">
+                                    </picture>
+                                    <p>Atención al cliente 24/7</p>
+                                </div>
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-clock.webp">
+                                        <img class="image" data-img="/public/img/latino-express-clock.png" alt="Latino express entregas en tiempo record" title="Latino express entregas en tiempo record" width="100" height="100">
+                                    </picture>
+                                    <p>Entregas a tiempo</p>
+                                </div>
+                                <div class="why_choose_icons_content">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-money.webp">
+                                        <img class="image" data-img="/public/img/latino-express-money.png" alt="Latino express los mejores precios del mercado" title="Latino express los mejores precios del mercado" width="100" height="100">
+                                    </picture>
+                                    <p>Precios trasparentes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
