@@ -1,0 +1,10 @@
+@import './vars';
+
+
+.bg_section_img {
+    background: url('/public/img/Background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}

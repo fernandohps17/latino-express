@@ -250,6 +250,12 @@ require_once "./comons/version_css_js.php";
 
 
 
+        <div class="container bg_section_img">
+            <div class="content">
+                
+            </div>
+        </div>
+
 
 
 
@@ -321,7 +327,131 @@ require_once "./comons/version_css_js.php";
 
 
         <!-- Testimonios -->
-        
+        <div class="container">
+            <div class="content">
+                <div class="testimony">
+                    <section class="testimony_title">
+                        <div class="testimony_p">
+                            <p>Testimonios</p>
+                        </div>
+                        <header class="testimony_title_flex">
+                            <h2>Lo que dice nuestros clientes</h2>
+                            <div class="testimony_arrow">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/img/testimony-arrow-left.webp">
+                                    <img class="image" data-img="/public/img/testimony-arrow-left.png" alt="Latino express flecha izquierza" title="Latino express flecha izquierda" width="100" height="100">
+                                </picture>
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/img/testimony-arrow-derecha.webp">
+                                    <img class="image" data-img="/public/img/testimony-arrow-derecha.webp" alt="Latino express flecha derecha" title="Latino express flecha derecha" width="100" height="100">
+                                </picture>
+                            </div>
+                        </header>
+                    </section>
+
+                    <div class="testimony_flex">
+                        <div class="testimony_content">
+                            <div class="testimony_content_article">
+                                <div class="testimony_content_article_title">
+                                    <div class="testimony_content_article_title_flex">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/user.webp">
+                                            <img class="image" data-img="/public/img/user.png" alt="Latino express user" title="Latino express user" width="100" height="100">
+                                        </picture>
+                                        <div class="testimony_content_article_title_name">
+                                            <h3>Kathleen Smith</h3>
+                                            <p>Fuel Company</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimony_content_article_title_icons">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/testimony_icon.webp">
+                                            <img class="image" data-img="/public/img/testimony_icon.png" alt="Latino express icon" title="Latino express icon" width="100" height="100">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="testimony_content_article_description">
+                                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                </div>
+                                <div class="testimony_content_article_icons">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="testimony_content">
+                            <div class="testimony_content_article testimony_bg">
+                                <div class="testimony_content_article_title">
+                                    <div class="testimony_content_article_title_flex">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/user2.webp">
+                                            <img class="image" data-img="/public/img/user2.png" alt="Latino express user" title="Latino express user" width="100" height="100">
+                                        </picture>
+                                        <div class="testimony_content_article_title_name">
+                                            <h3>John Martin</h3>
+                                            <p>Restoration Company</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimony_content_article_title_icons">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/testimony_icon.webp">
+                                            <img class="image" data-img="/public/img/testimony_icon.png" alt="Latino express icon" title="Latino express icon" width="100" height="100">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="testimony_content_article_description">
+                                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                </div>
+                                <div class="testimony_content_article_icons">
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                    <picture class="picture-defer">
+                                        <source class="image source" type='image/webp' data-img="/public/img/star.webp">
+                                        <img class="image" data-img="/public/img/star.png" alt="Latino express star" title="Latino express star" width="100" height="100">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
