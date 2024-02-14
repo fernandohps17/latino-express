@@ -25,6 +25,8 @@
     object-fit: contain;
     padding: 80px;
     text-align: center;
+    border-right: 1px solid $color_terciario;
+
     
     @media screen and (max-width: $destok_1100px) {
         width: 100%;

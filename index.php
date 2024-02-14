@@ -57,7 +57,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>Email</p>
-                                <p>contact@567897854.com</p>
+                                <p>info@latinoexpress-cargo.com</p>
                             </div>
                         </div>
                         <div class="bar_top_contact_content">
@@ -257,10 +257,58 @@ require_once "./comons/version_css_js.php";
         </div>
 
 
-
+        <!-- Why us -->
         <div class="container bg_section_img">
             <div class="content">
+                <div class="why_us">
+                    <div class="why_us_content">
+                        <div class="why_choose_content">
+                            <div class="why_choose_p">
+                                <p>¿Porqué nosotros?</p>
+                            </div>
+                            <section class="why_choose_title">
+                                <header>
+                                    <h2>Proporcionamos una <br> solución logística global de <br> gama completa.</h2>
+                                </header>
+                            </section>
+                            <div class="why_choose_subtitle">
+                                <p>Leverage agile frameworks to provide a robust synopsis for <br> strategy foster collaborative thinking to further the overall <br> value proposition. </p>
+                                <p>Organically grow the holistic world view of disruptive <br> innovation via workplace diversity and empowerment.</p>
+                            </div>
 
+                            <div class="why_choose_icons">
+                                <div class="why_choose_icons_flex">
+                                    <div class="why_choose_icons_content">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/latino-express-box.webp">
+                                            <img class="image" data-img="/public/img/latino-express-box.png" alt="Latino express la mejor seguridad en envios" title="Latino express la mejor seguridad en envios" width="100" height="100">
+                                        </picture>
+                                        <p>Entrega a tiempo</p>
+                                    </div>
+                                    <div class="why_choose_icons_content">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/img/cash.webp">
+                                            <img class="image" data-img="/public/img/cash.png" alt="Latino express el mejor precio en paquetes" title="Latino express el mejor precio en paquetes" width="100" height="100">
+                                        </picture>
+                                        <p>Costo de viaje optimizado</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="why_us_image">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' data-img="/public/img/latino-express-why-us.webp">
+                                <img class="image" data-img="/public/img/latino-express-why-us.jpg" alt="Latino express porque nosotros" title="Latino express porque nosotros" width="100" height="100">
+                            </picture>
+                        </div>
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -272,7 +320,7 @@ require_once "./comons/version_css_js.php";
             <div class="content">
                 <div class="count">
                     <div class="count_content">
-                        <span class="num" id="num" data-val="1294">0000</span>
+                        <span class="num" id="num" data-val="13742">0000</span>
                         <picture class="picture-defer">
                             <source class="image source" type='image/webp' data-img="/public/icon/Pattern.webp">
                             <img class="image" data-img="/public/icon/Pattern.png" alt="Latino express" title="Latino express" width="100" height="100">
@@ -281,7 +329,7 @@ require_once "./comons/version_css_js.php";
                     </div>
 
                     <div class="count_content">
-                        <span class="num" id="num" data-val="3594">0000</span>
+                        <span class="num" id="num" data-val="13728">0000</span>
                         <picture class="picture-defer">
                             <source class="image source" type='image/webp' data-img="/public/icon/Pattern.webp">
                             <img class="image" data-img="/public/icon/Pattern.png" alt="Latino express" title="Latino express" width="100" height="100">
@@ -486,13 +534,13 @@ require_once "./comons/version_css_js.php";
                                 <source class="image source" type='image/webp' data-img="/public/img/latino-express-aereo.webp">
                                 <img class="image" data-img="/public/img/latino-express-aereo.png" alt="Latino express" title="Latino express" width="100" height="100">
                             </picture>
-                            <p>Tu productos se <br> mueven entre <br> ciudades.</p>
+                            <p>Tus productos se mueven <br> entre ciudades.</p>
                         </div>
                     </div>
 
                     <div class="why_choose_content">
                         <div class="why_choose_p">
-                            <p>¿Porqué Elegirnos?</p>
+                            <p>Beneficios</p>
                         </div>
                         <section class="why_choose_title">
                             <header>
@@ -590,6 +638,17 @@ require_once "./comons/version_css_js.php";
                         <div class="form_content_icons">
                             <div class="bar_top_contact_content">
                                 <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/email.svg">
+                                    <img class="image" data-img="/public/icon/email.svg" alt="Latino express envianos un email" title="Latino express email" width="100" height="100">
+                                </picture>
+                                <div class="bar_top_contact_content_text">
+                                    <p>Email</p>
+                                    <p>info@latinoexpress-cargo.com</p>
+                                </div>
+                            </div>
+
+                            <div class="bar_top_contact_content">
+                                <picture class="picture-defer">
                                     <source class="image source" type='image/webp' data-img="/public/icon/clock.svg">
                                     <img class="image" data-img="/public/icon/clock.svg" alt="Latino express nuestros horarios" title="Latino express horario" width="100" height="100">
                                 </picture>
@@ -598,16 +657,7 @@ require_once "./comons/version_css_js.php";
                                     <p>Sunday Closed</p>
                                 </div>
                             </div>
-                            <div class="bar_top_contact_content">
-                                <picture class="picture-defer">
-                                    <source class="image source" type='image/webp' data-img="/public/icon/email.svg">
-                                    <img class="image" data-img="/public/icon/email.svg" alt="Latino express envianos un email" title="Latino express email" width="100" height="100">
-                                </picture>
-                                <div class="bar_top_contact_content_text">
-                                    <p>Email</p>
-                                    <p>contact@567897854.com</p>
-                                </div>
-                            </div>
+
                             <div class="bar_top_contact_content">
                                 <picture class="picture-defer">
                                     <source class="image source" type='image/webp' data-img="/public/icon/call.svg">
@@ -654,10 +704,6 @@ require_once "./comons/version_css_js.php";
                         <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-3.webp">
                         <img class="image" data-img="/public/img/latino-express-gallery-footer-3.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
                     </picture>
-                    <picture class="picture-defer">
-                        <source class="image source" type='image/webp' data-img="/public/img/latino-express-gallery-footer-4.webp">
-                        <img class="image" data-img="/public/img/latino-express-gallery-footer-4.jpg" alt="Latino express galeria" title="Latino express galeria" width="100" height="100">
-                    </picture>
                 </div>
             </div>
         </div>
@@ -689,7 +735,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>Email</p>
-                                <p>contact@567897854.com</p>
+                                <p>info@latinoexpress-cargo.com</p>
                             </div>
                         </div>
                         <div class="bar_top_contact_content">
