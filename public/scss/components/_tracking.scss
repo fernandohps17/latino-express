@@ -1,7 +1,8 @@
 @import './vars';
 
 .bg_tracking {
-    background: linear-gradient(90deg, rgba(255,182,41,1) 23%, rgba(0,0,0,1) 69%);
+    // background: linear-gradient(90deg, rgba(255,182,41,1) 23%, rgba(0,0,0,1) 69%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 90%, rgba(255,182,41,1) 90%);
 }
 
 .tracking {
@@ -24,15 +25,61 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border-radius: 20px;
     border: 7px solid $color_secundario;
     background-color: $color_principal;
-    padding: 50px;
+    // padding: 50px;
     width: 100%;
 }
 
 .tracking_coding_verifed {
-    border: 1px solid $color_terciario;
+    border: 1px solid $color_secundario;
+    border-radius: 20px;
     padding: 20px;
+}
+
+.padding {
+    padding: 50px 50px 20px 50px;
+
+    @media screen and (max-width: $phone_500px) {
+        padding: 30px 30px 10px 30px;
+    }
+}
+
+.padding2 {
+    padding: 20px 50px 50px 50px;
+
+    @media screen and (max-width: $phone_500px) {
+        padding: 10px 30px 30px 30px;
+    }
+}
+
+.tracking_coding_verifed_input_text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    .p1 {
+        font-size: 45px;
+        text-decoration: underline;
+
+        @media screen and (max-width: $tablet_700px) {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: $phone_500px) {
+            font-size: 20px;
+        }
+    }
+
+    .p2 {
+        font-size: 16px;
+
+        @media screen and (max-width: $tablet_700px) {
+            text-align: center;
+        }
+    }
 }
 
 .tracking_coding_verifed_input {
@@ -49,14 +96,36 @@
         color: $color_terciario;
         font-size: 20px;
     }
+}
+
+.input {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border: 1px solid $color_secundario;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     input {
-        width: 80%;
-        height: 50px;
+        width: 100%;
+        height: 90%;
         border: none;
         outline: none;
         padding-left: 10px;
+        border-radius: 20px;
+        font-size: 25px;
+
+        @media screen and (max-width: $tablet_700px) {
+            font-size: 16px;
+        }
     }
+}
+
+.divider {
+    border-bottom: 1px solid $color_secundario;
 }
 
 .tracking_conding_verifed_data {
@@ -64,8 +133,39 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: $color_terciario;
-    border: 1px solid $color_terciario;
+    background-color: #1c1c1c;
+    border: 1px solid $color_secundario;
+    border-radius: 20px;
     padding: 20px;
     width: 80%;
+}
+
+
+.tracking_conding_verifed_data_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $tablet_700px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.tracking_conding_verifed_data_content_status {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color_terciario;
+
+    img {
+        background: $color_terciario;
+        padding: 10px;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
 }

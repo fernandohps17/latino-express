@@ -157,7 +157,6 @@ require_once "./comons/version_css_js.php";
                             Explore more
                         </div>
                     </section>
-
                 </div>
             </div>
         </div>
@@ -296,17 +295,12 @@ require_once "./comons/version_css_js.php";
                             </div>
                         </div>
 
-
-
                         <div class="why_us_image">
                             <picture class="picture-defer">
                                 <source class="image source" type='image/webp' data-img="/public/img/latino-express-why-us.webp">
                                 <img class="image" data-img="/public/img/latino-express-why-us.jpg" alt="Latino express porque nosotros" title="Latino express porque nosotros" width="100" height="100">
                             </picture>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
@@ -341,9 +335,6 @@ require_once "./comons/version_css_js.php";
         </div>
 
 
-
-
-
         <!-- Seccion de rastreo de paquetes -->
         <div class="container">
             <div class="content">
@@ -359,16 +350,49 @@ require_once "./comons/version_css_js.php";
                 <div class="tracking">
 
                     <div class="tracking_coding">
-                        <div class="tracking_coding_verifed">
-                            <form action="" class="tracking_coding_verifed_input">
-                                <p>CODIGO - 5000</p>
-                                <input type="text" required name="coding">
-                            </form>
+                        <div class="padding">
+                            <div class="tracking_coding_verifed">
+                                <form action="" class="tracking_coding_verifed_input">
+                                    <div class="tracking_coding_verifed_input_text">
+                                        <p class="p1">CODIGO</p>
+                                        <p class="p2">Verificación de rastreo</p>
+                                    </div>
+                                    <div class="input">
+                                        <input type="text" required name="coding" placeholder="Ejm: 4653030303">
+                                    </div>
+                                </form>
+                            </div>
                         </div>
 
-                        <div class="tracking_conding_verifed_data">
-                            <div>
-                                datos
+                        <div class="divider"></div>
+
+                        <div class="padding2">
+                            <div class="tracking_conding_verifed_data">
+                                <div class="tracking_conding_verifed_data_content">
+                                    <div class="tracking_conding_verifed_data_content_status">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/icon/star.svg">
+                                            <img class="image" data-img="/public/icon/star.svg" alt="Latino express" title="Latino express" width="100" height="100">
+                                        </picture>
+                                        <p>EN BODEGA</p>
+                                    </div>
+
+                                    <div class="tracking_conding_verifed_data_content_status">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/icon/star.svg">
+                                            <img class="image" data-img="/public/icon/star.svg" alt="Latino express" title="Latino express" width="100" height="100">
+                                        </picture>
+                                        <p>EN CAMINO</p>
+                                    </div>
+
+                                    <div class="tracking_conding_verifed_data_content_status">
+                                        <picture class="picture-defer">
+                                            <source class="image source" type='image/webp' data-img="/public/icon/star.svg">
+                                            <img class="image" data-img="/public/icon/star.svg" alt="Latino express" title="Latino express" width="100" height="100">
+                                        </picture>
+                                        <p>ENTREGADO</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
