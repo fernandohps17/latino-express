@@ -425,8 +425,8 @@ require_once "./comons/version_css_js.php";
                                             <img class="image" data-img="/public/img/user.png" alt="Latino express user" title="Latino express user" width="100" height="100">
                                         </picture>
                                         <div class="testimony_content_article_title_name">
-                                            <h3>Kathleen Smith</h3>
-                                            <p>Fuel Company</p>
+                                            <h3>Alberto Gonzalez</h3>
+                                            <p>Compañia de Guardamuebles</p>
                                         </div>
                                     </div>
                                     <div class="testimony_content_article_title_icons">
@@ -473,8 +473,8 @@ require_once "./comons/version_css_js.php";
                                             <img class="image" data-img="/public/img/user2.png" alt="Latino express user" title="Latino express user" width="100" height="100">
                                         </picture>
                                         <div class="testimony_content_article_title_name">
-                                            <h3>John Martin</h3>
-                                            <p>Restoration Company</p>
+                                            <h3>Martin Gomez</h3>
+                                            <p>Compañia de Restauración</p>
                                         </div>
                                     </div>
                                     <div class="testimony_content_article_title_icons">

@@ -1,1 +1,1 @@
-<?php $ver = '1' . date('ym');
+<?php $ver = '2' . date('ym');
