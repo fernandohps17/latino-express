@@ -20,8 +20,10 @@
 }
 
 .what_we_do_title_p {
+    background-color: #f2f2f2;
     font-size: 18px;
-
+    width: 110px;
+    
     span {
         color: $color_secundario;
     }
@@ -70,7 +72,7 @@
 
 }
 
-.what_we_do_content_article_content {}
+// .what_we_do_content_article_content {}
 
 .what_we_do_content_article_content_title {
     font-size: 16px;

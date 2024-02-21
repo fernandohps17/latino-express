@@ -17,6 +17,8 @@
 
 .testimony_flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px 0;
     
     @media screen and (max-width: $destok_1000px) {
@@ -32,9 +34,15 @@
 .testimony_content_article {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    height: 250px;
     padding: 30px;
     gap: 20px;
     background: #f4f4f4;
+
+    @media screen and (max-width: $tablet_600px) {
+        height: 300px;
+    }
 }
 
 .testimony_title {
@@ -95,6 +103,11 @@
     img {
         width: 60px;
         height: 60px;
+
+        @media screen and (max-width: $tablet_600px) {
+            width: 40px;
+            height: 40px;
+        }
     }
 }
 

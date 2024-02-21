@@ -17,7 +17,7 @@ require_once "./comons/version_css_js.php";
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="stylesheet" href="/public/css/main.css">
-    <link rel="canonical" href="https://www.latino-express.com/">
+    <link rel="canonical" href="https://www.latinoexpress-cargo.com/">
     <link rel="apple-touch-icon" href="/public/icon/favicon.ico">
     <link rel="apple-touch-startup-image" href="/public/icon/favicon.ico">
     <link rel="icon" href="/public/icon/favicon.ico">
@@ -25,9 +25,8 @@ require_once "./comons/version_css_js.php";
 
 <body>
     <main>
-
         <!-- Bar Top -->
-        <div class="container bg_bar_top">
+        <div class="container bg_bar_top" id="inicio">
             <div class="content">
                 <div class="bar_top">
 
@@ -46,8 +45,8 @@ require_once "./comons/version_css_js.php";
                                 <img class="image" data-img="/public/icon/clock.svg" alt="Latino express nuestros horarios" title="Latino express horario" width="100" height="100">
                             </picture>
                             <div class="bar_top_contact_content_text">
-                                <p>Mon - Sat 9.00 - 18.00</p>
-                                <p>Sunday Closed</p>
+                                <p>Lunes - Sábado 9.00 - 18.00</p>
+                                <p>Domingo cerrado.</p>
                             </div>
                         </div>
                         <div class="bar_top_contact_content">
@@ -66,15 +65,14 @@ require_once "./comons/version_css_js.php";
                                 <img class="image" data-img="/public/icon/call.svg" alt="Latino express llamanos" title="Latino express llamada" width="100" height="100">
                             </picture>
                             <div class="bar_top_contact_content_text">
-                                <p>Call us</p>
-                                <p>67898745378</p>
+                                <p>llamanos</p>
+                                <p>+52-5597616772</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <!-- Menu de Navegacion -->
         <div class="container bg_nav">
@@ -89,18 +87,20 @@ require_once "./comons/version_css_js.php";
                     <div class="nav_navegacion menu_enlaces" id="menuMobile">
                         <nav class="nav_enlaces menu_enlaces_a">
                             <p class="closeMenu" id="closeMenu">X</p>
-                            <a href="#">Home</a>
+                            <a href="#inicio">Inicio</a>
                             <span>|</span>
-                            <a href="">About</a>
+                            <a href="#soluciones">Soluciones</a>
                             <span>|</span>
-                            <a href="">Services</a>
+                            <a href="#servicios">Servicios</a>
                             <span>|</span>
-                            <a href="">Project</a>
+                            <a href="#rastreo">Rastreo</a>
                             <span>|</span>
-                            <a href="">Contact</a>
+                            <a href="#testimonios">Testimonios</a>
+                            <span>|</span>
+                            <a href="#beneficios">Beneficios</a>
                         </nav>
 
-                        <div class="nav_social">
+                        <!-- <div class="nav_social">
                             <div class="nav_icons_social">
                                 <a href="https://www.instagram.com/" target="_blank">
                                     <picture class="picture-defer">
@@ -130,13 +130,11 @@ require_once "./comons/version_css_js.php";
                             <div class="nav_btn">
                                 <a href="">Request Quote</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-
-
 
         <!-- Header -->
         <div class="container bg_header">
@@ -150,27 +148,25 @@ require_once "./comons/version_css_js.php";
                             <h1>Tu puerta de enlace <br> a cualquier Destino <br> en el Mundo</h1>
                         </header>
                         <div class="header_content_subtitle">
-                            <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu <br> no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim <br> diam interdum nulla, sed laoreet risus lectus. </p>
+                            <p>Contamos con Agencias, las cuales estan localizadas en diferentes areas <br> estratégicas, para la comodidad de los clientes y nuestros agentes. <br> Nuestros servicios ofrecen la logistica necesaria para transportar los <br> paquetes con los requerimientos necesarios para ser <br> llevados a su destino final.</p>
                         </div>
 
                         <div class="header_btn">
-                            Explore more
+                            Explorar
                         </div>
                     </section>
                 </div>
             </div>
         </div>
 
-
-
-        <!-- Que hacemos -->
-        <div class="container">
+        <!-- Soluciones -->
+        <div class="container" id="soluciones">
             <div class="content">
                 <div class="what_we_do">
                     <div class="what_we_do_title">
                         <section class="what_we_do_title_spacing">
                             <div class="what_we_do_title_p">
-                                <p><span>|</span> ¿Qué Hacemos?</p>
+                                <p><span>|</span> Soluciones</p>
                             </div>
                             <header class="what_we_do_title">
                                 <h2>Soluciones de carga <br> seguras y confiables</h2>
@@ -192,7 +188,7 @@ require_once "./comons/version_css_js.php";
                                         <header>
                                             <h3>Servicio de <br> transporte marítimo <br> (Pronto)</h3>
                                         </header>
-                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                        <p>Estamos trabajando para no tener <br> limitaciones, a la hora de hacer <br> llegar un paquete hasta tu destino.</p>
                                     </section>
                                 </div>
                             </div>
@@ -209,7 +205,7 @@ require_once "./comons/version_css_js.php";
                                         <header>
                                             <h3>Servicios aéreos</h3>
                                         </header>
-                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                        <p>Nuestra prioridad siempre sera el <br> movimiento más rapido para aquellos <br> paquetes que estan en rutas lejanas.</p>
                                     </section>
                                 </div>
                             </div>
@@ -228,7 +224,7 @@ require_once "./comons/version_css_js.php";
                                         <header>
                                             <h3>Servicio de <br> almacenamientos</h3>
                                         </header>
-                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                        <p>Buscamos implemetar respaldos de <br> bodega muy pronto para que podamos <br> realizar rutas más extensas.</p>
                                     </section>
                                 </div>
                             </div>
@@ -245,7 +241,7 @@ require_once "./comons/version_css_js.php";
                                         <header>
                                             <h3>Servicio de envío locales</h3>
                                         </header>
-                                        <p>Following the quality of our service <br> thus having gained trust of our <br> many clients.</p>
+                                        <p>Transitamos localmente con el <br> mejor equipo, rutas y seguridad.</p>
                                     </section>
                                 </div>
                             </div>
@@ -255,9 +251,8 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
         <!-- Why us -->
-        <div class="container bg_section_img">
+        <div class="container bg_section_img" id="servicios">
             <div class="content">
                 <div class="why_us">
                     <div class="why_us_content">
@@ -271,8 +266,8 @@ require_once "./comons/version_css_js.php";
                                 </header>
                             </section>
                             <div class="why_choose_subtitle">
-                                <p>Leverage agile frameworks to provide a robust synopsis for <br> strategy foster collaborative thinking to further the overall <br> value proposition. </p>
-                                <p>Organically grow the holistic world view of disruptive <br> innovation via workplace diversity and empowerment.</p>
+                                <p>Asesoramos a todos nuestros clientes, en su proceso de <br> envíar o recibir paquetes Estados Unidos a México y America <br> latina</p>
+                                <p>ENVIOS A CUALQUIER PARTE DE MÉXICO <br> Contamos con agencias colocadas en áreas estratégicas para <br> hacer más accesible nuestro servicio</p>
                             </div>
 
                             <div class="why_choose_icons">
@@ -306,9 +301,6 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
         <!-- Contador de paquetes entregados -->
         <div class="container">
             <div class="content">
@@ -336,7 +328,7 @@ require_once "./comons/version_css_js.php";
 
 
         <!-- Seccion de rastreo de paquetes -->
-        <div class="container">
+        <div class="container" id="rastreo">
             <div class="content">
                 <section class="tracking_title">
                     <header>
@@ -400,14 +392,8 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
-
-
         <!-- Testimonios -->
-        <div class="container">
+        <div class="container" id="testimonios">
             <div class="content">
                 <div class="testimony">
                     <section class="testimony_title">
@@ -451,7 +437,7 @@ require_once "./comons/version_css_js.php";
                                     </div>
                                 </div>
                                 <div class="testimony_content_article_description">
-                                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                    <p>BUEN SERVICIO NO TARDO TANTO, RECOMENDADO, LA ATENCIÓN VIA WHATSAPP ES BUENA Y PERSONALIZADA.</p>
                                 </div>
                                 <div class="testimony_content_article_icons">
                                     <picture class="picture-defer">
@@ -478,9 +464,6 @@ require_once "./comons/version_css_js.php";
                             </div>
                         </div>
 
-
-
-
                         <div class="testimony_content">
                             <div class="testimony_content_article testimony_bg">
                                 <div class="testimony_content_article_title">
@@ -502,7 +485,8 @@ require_once "./comons/version_css_js.php";
                                     </div>
                                 </div>
                                 <div class="testimony_content_article_description">
-                                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                                    <!-- <p>GRACIAS MUY ATENTOS Y RAPIDOS, <br> MUCHA SEGURIDAD Y COMPROMISO</p> -->
+                                    <p>EXCELENTE EL SERVICIO Y EL TRATO. MUY PROFESIONALES. HE RENOVADO MI CONTRATO Y LO RECOMIENDO 100 POR 100</p>
                                 </div>
                                 <div class="testimony_content_article_icons">
                                     <picture class="picture-defer">
@@ -533,18 +517,8 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
         <!-- Porque elegirnos -->
-        <div class="container bg_why_choose">
+        <div class="container bg_why_choose" id="beneficios">
             <div class="content">
                 <div class="why_choose">
                     <div class="why_choose_image">
@@ -572,9 +546,8 @@ require_once "./comons/version_css_js.php";
                             </header>
                         </section>
                         <div class="why_choose_subtitle">
-                            <p>Leverage agile frameworks to provide a robust synopsis for <br> strategy foster collaborative thinking to further the overall <br> value proposition. </p>
+                            <p>Nuestros clientes nos prefieren por nuestro servicio (cumplimos <br> en tiempo y forma) y por nuestra cálida atención.</p>
                         </div>
-
 
                         <div class="why_choose_icons">
                             <div class="why_choose_icons_flex">
@@ -629,19 +602,6 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Formulario de contacto -->
         <div class="container bg_form">
             <div class="content">
@@ -654,9 +614,9 @@ require_once "./comons/version_css_js.php";
                             <header class="form_content_title">
                                 <h2>Ponte en contacto <br> con nosotros</h2>
                             </header>
-                            <div class="form_content_subtitle">
+                            <!-- <div class="form_content_subtitle">
                                 <p>Leverage agile frameworks to provide a robust <br> synopsis for strategy foster collaborative <br> thinking to further the overall value.</p>
-                            </div>
+                            </div> -->
                         </section>
 
                         <div class="form_content_icons">
@@ -677,8 +637,8 @@ require_once "./comons/version_css_js.php";
                                     <img class="image" data-img="/public/icon/clock.svg" alt="Latino express nuestros horarios" title="Latino express horario" width="100" height="100">
                                 </picture>
                                 <div class="bar_top_contact_content_text">
-                                    <p>Mon - Sat 9.00 - 18.00</p>
-                                    <p>Sunday Closed</p>
+                                    <p>Lunes - Sábado 9.00 - 18.00</p>
+                                    <p>Domingo cerrado.</p>
                                 </div>
                             </div>
 
@@ -688,8 +648,8 @@ require_once "./comons/version_css_js.php";
                                     <img class="image" data-img="/public/icon/call.svg" alt="Latino express llamanos" title="Latino express llamada" width="100" height="100">
                                 </picture>
                                 <div class="bar_top_contact_content_text">
-                                    <p>Call us</p>
-                                    <p>67898745378</p>
+                                    <p>Llamanos</p>
+                                    <p>+52-5597616772</p>
                                 </div>
                             </div>
                         </div>
@@ -732,9 +692,6 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
 
-
-
-
         <!-- Footer -->
         <div class="container bg_footer_img">
             <div class="content">
@@ -768,19 +725,20 @@ require_once "./comons/version_css_js.php";
                                 <img class="image" data-img="/public/icon/call.svg" alt="Latino express llamanos" title="Latino express llamada" width="100" height="100">
                             </picture>
                             <div class="bar_top_contact_content_text">
-                                <p>Call us</p>
-                                <p>67898745378</p>
+                                <p>Llamanos</p>
+                                <p>+52-5597616772</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="footer_content_nav">
                     <nav class="footer_content_nav_enlaces">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Project</a>
-                        <a href="#">Contact</a>
+                        <a href="#inicio">Inicio</a>
+                        <a href="#soluciones">Soluciones</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#rastreo">Rastreo</a>
+                        <a href="#testimonios">Testimonios</a>
+                        <a href="#beneficios">Beneficios</a>
                     </nav>
                 </div>
                 <div class="footer_content_email">
@@ -811,10 +769,9 @@ require_once "./comons/version_css_js.php";
                 <p>©2024 Latino Express. Todos los derechos reservados.</p>
             </div>
         </div>
-
-
-
-
+        <?php
+            require_once './comons/btn_top.php';
+        ?>
     </main>
 </body>
 
