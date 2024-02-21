@@ -87,4 +87,14 @@
 
 .bar_top_contact_content_text {
     color: $color_terciario;
+
+    a {
+        color: $color_terciario;
+        text-decoration: none;
+        transition: 1s ease;
+
+        &:hover {
+            color: $color_secundario;
+        }
+    }
 }

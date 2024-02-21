@@ -56,7 +56,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>Email</p>
-                                <p>info@latinoexpress-cargo.com</p>
+                                <a href="mailto:info@latinoexpress-cargo.com" onclick="gtag('event', 'email')">info@latinoexpress-cargo.com</a>
                             </div>
                         </div>
                         <div class="bar_top_contact_content">
@@ -66,7 +66,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>llamanos</p>
-                                <p>+52-5597616772</p>
+                                <a href="tel:+15597616772" onclick="gtag('event', 'telefonos')">+1 5597616772</a>
                             </div>
                         </div>
                     </div>
@@ -627,7 +627,7 @@ require_once "./comons/version_css_js.php";
                                 </picture>
                                 <div class="bar_top_contact_content_text">
                                     <p>Email</p>
-                                    <p>info@latinoexpress-cargo.com</p>
+                                    <a href="mailto:info@latinoexpress-cargo.com" onclick="gtag('event', 'email')">info@latinoexpress-cargo.com</a>
                                 </div>
                             </div>
 
@@ -649,7 +649,7 @@ require_once "./comons/version_css_js.php";
                                 </picture>
                                 <div class="bar_top_contact_content_text">
                                     <p>Llamanos</p>
-                                    <p>+52-5597616772</p>
+                                    <a href="tel:+15597616772" onclick="gtag('event', 'telefonos')">+1 5597616772</a>
                                 </div>
                             </div>
                         </div>
@@ -716,7 +716,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>Email</p>
-                                <p>info@latinoexpress-cargo.com</p>
+                                <a href="mailto:info@latinoexpress-cargo.com" onclick="gtag('event', 'email')">info@latinoexpress-cargo.com</a>
                             </div>
                         </div>
                         <div class="bar_top_contact_content">
@@ -726,7 +726,7 @@ require_once "./comons/version_css_js.php";
                             </picture>
                             <div class="bar_top_contact_content_text">
                                 <p>Llamanos</p>
-                                <p>+52-5597616772</p>
+                                <a href="tel:+15597616772" onclick="gtag('event', 'telefonos')">+1 5597616772</a>
                             </div>
                         </div>
                     </div>
@@ -746,18 +746,24 @@ require_once "./comons/version_css_js.php";
                         <input type="email" name="email_footer" required placeholder="Ingrese su Email">
                         <div class="btn_icons">
                             <button type="submit">Enviar</button>
-                            <picture class="picture-defer">
-                                <source class="image source" type='image/webp' data-img="/public/icon/linkeding_white.svg">
-                                <img class="image" data-img="/public/icon/linkeding_white.svg" alt="Latino express linkeding" title="Latino express linkeding" width="100" height="100">
-                            </picture>
-                            <picture class="picture-defer">
-                                <source class="image source" type='image/webp' data-img="/public/icon/twitter_white.svg">
-                                <img class="image" data-img="/public/icon/twitter_white.svg" alt="Latino express twitter" title="Latino express twitter" width="100" height="100">
-                            </picture>
-                            <picture class="picture-defer">
-                                <source class="image source" type='image/webp' data-img="/public/icon/facebook_white.svg">
-                                <img class="image" data-img="/public/icon/facebook_white.svg" alt="Latino express facebook" title="Latino express facebook" width="100" height="100">
-                            </picture>
+                            <a href="https://www.instagram.com/latino.expresscalifornia?igsh=MzRlODBiNWFlZA==" target="_blank">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/instagram.svg">
+                                    <img class="image" data-img="/public/icon/instagram.svg" alt="Latino express Instagram" title="Latino express Instagram" width="100" height="100">
+                                </picture>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61556014935981&mibextid=sCpJLy" target="_blank">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/facebook_white.svg">
+                                    <img class="image" data-img="/public/icon/facebook_white.svg" alt="Latino express facebook" title="Latino express facebook" width="100" height="100">
+                                </picture>
+                            </a>
+                            <a href="https://www.tiktok.com/@latinoexpress.cargo?_t=8jrEGkmhGCU&_r=1" target="_blank">
+                                <picture class="picture-defer">
+                                    <source class="image source" type='image/webp' data-img="/public/icon/tiktok.svg">
+                                    <img class="image" data-img="/public/icon/tiktok.svg" alt="Latino express tiktok" title="Latino express tiktok" width="100" height="100">
+                                </picture>
+                            </a>
                         </div>
                     </form>
                 </div>
@@ -770,7 +776,7 @@ require_once "./comons/version_css_js.php";
             </div>
         </div>
         <?php
-            require_once './comons/btn_top.php';
+        require_once './comons/btn_top.php';
         ?>
     </main>
 </body>
